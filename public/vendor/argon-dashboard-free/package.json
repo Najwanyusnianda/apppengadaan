@@ -1,0 +1,80 @@
+{
+  "_from": "@creative-tim-official/argon-dashboard-free@^1.1.0",
+  "_id": "@creative-tim-official/argon-dashboard-free@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-O5FBYFqm4SVR+KVJ4GJnSiVIKuZmY+gwzhmgP3jwWXOjVNnaVXhqT5xCpe6olKK+dZV+WG8IVBu0USd5q+rXzA==",
+  "_location": "/@creative-tim-official/argon-dashboard-free",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@creative-tim-official/argon-dashboard-free@^1.1.0",
+    "name": "@creative-tim-official/argon-dashboard-free",
+    "escapedName": "@creative-tim-official%2fargon-dashboard-free",
+    "scope": "@creative-tim-official",
+    "rawSpec": "^1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@creative-tim-official/argon-dashboard-free/-/argon-dashboard-free-1.1.0.tgz",
+  "_shasum": "4d2c6d6fcf51a4ac47f7f8ad57cbcd89cb60ef7d",
+  "_spec": "@creative-tim-official/argon-dashboard-free@^1.1.0",
+  "_where": "C:\\xampp\\htdocs\\apppengadaan",
+  "author": {
+    "name": "Creative Tim",
+    "email": "hello@creative-tim.com",
+    "url": "https://www.creative-tim.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/argon-dashboard/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Argon Dashboard. Coded by Creative Tim",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "directories": {
+    "example": "root"
+  },
+  "homepage": "http://demos.creative-tim.com/argon-dashboard/index.html",
+  "keywords": [
+    "argon dashboard",
+    "bootstrap admin",
+    "bootstrap dashboard",
+    "argon design admin",
+    "argon design",
+    "creative tim",
+    "html dashboard",
+    "html css dashboard",
+    "web dashboard",
+    "freebie",
+    "free bootstrap dashboard",
+    "css3 dashboard",
+    "bootstrap admin",
+    "bootstrap dashboard",
+    "frontend",
+    "responsive bootstrap dashboard"
+  ],
+  "license": "MIT",
+  "main": "index.html",
+  "name": "@creative-tim-official/argon-dashboard-free",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/argon-dashboard.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
