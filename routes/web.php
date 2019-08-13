@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+Route::get('/test', 'SinglePageController@index');
+Route::get('/{any}', 'SinglePageController@index')->where('any', '.*');
 
+/*
 Auth::routes();
 
 
@@ -26,4 +29,4 @@ Route::post('/admin-login', ['as'=>'admin-login','uses'=>'Auth\AdminLoginControl
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', function(){
     return view('layouts.adminApp');
-})->name('home.admin');
+})->name('home.admin');*/

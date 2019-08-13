@@ -1,4 +1,5 @@
-<div class="sidebar">
+<template>
+    <div class="sidebar">
     <nav class="sidebar-nav ps ps--active-y">
         <ul class="nav">
             <li class="nav-item">
@@ -46,3 +47,10 @@
     </nav>
     <button class="sidebar-minimizer brand-minimizer" type="button"></button>
 </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+

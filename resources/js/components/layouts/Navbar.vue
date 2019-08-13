@@ -1,10 +1,11 @@
-<header class="app-header navbar">
+<template>
+    <header class="app-header navbar">
     <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
-    <img class="navbar-brand-full" src="{{asset('images/vendor/@creative-tim-official/argon-dashboard-free/brand/blue.png')}}" alt="CoreUI Logo" width="89" height="25">
-        <img class="navbar-brand-minimized" src="img/brand/sygnet.svg" alt="CoreUI Logo" width="30" height="30">
+    <img class="navbar-brand-full" src="#" alt="CoreUI Logo" width="89" height="25">
+        <img class="navbar-brand-minimized" src="#" alt="CoreUI Logo" width="30" height="30">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -166,7 +167,7 @@
                     <div class="message">
                         <div class="py-3 mr-3 float-left">
                             <div class="avatar">
-                            <img class="img-avatar" src="{{asset('img/user.png')}}" alt="admin@bootstrapmaster.com">
+                            <img class="img-avatar" src="/img/user.png" alt="admin@bootstrapmaster.com">
                                 <span class="avatar-status badge-success"></span>
                             </div>
                         </div>
@@ -188,7 +189,7 @@
         <li class="nav-item dropdown">
             <a class="nav-link nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                 aria-expanded="false">
-                <img class="img-avatar" src="{{asset('img/user.png')}}" alt="admin@bootstrapmaster.com">
+                <img class="img-avatar" src="/img/user.png" alt="admin@bootstrapmaster.com">
             </a>
             <div class="dropdown-menu dropdown-menu-right">
                 <div class="dropdown-header text-center">
@@ -240,3 +241,4 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 </header>
+</template>

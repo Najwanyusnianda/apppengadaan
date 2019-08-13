@@ -72,6 +72,11 @@ class AdminLoginController extends Controller
 
     }
 
+    public function guard()
+    {
+        return auth()->guard('admin');
+    }
+
  
 
     public function showLoginForm()
